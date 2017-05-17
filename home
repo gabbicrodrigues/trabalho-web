@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background-color:#FFFAF0">
+	<div class="cabecalho">
+		<a href="home2.html">Home</a>
+		<a href="HTCS.html">Produtos</a>
+		<a href="estoque.html">Estoque</a>
+		<a href="#faleconosco">Fale Conosco</a>
+	</div> <br>
+	<div class="pr">
+		<h1 style="color: red">Promoção!</h1><br>
+		<img src="http://3.bp.blogspot.com/-uKhiOq3YWdE/T6Xksriv1yI/AAAAAAAAFyo/pyEqVaieW44/s1600/cal%C3%A7a2-universoPNG.png" width="30%"><br><br>
+		<h2>Calça Jeans</h2>
+		<p>De:</p><h3 class="risca">R$89,99</h3><p>Para:</p> <h3>R$69,99</h3><br><br>
+		<img src="http://www.jueconfeccoes.com.br/wp-content/uploads/2015/01/polo-1.png" width="30%"><br>
+		<h2>Camisa polo</h2>
+		<p>De:</p><h3 class="risca">R$59,90</h3><p>Para:</p> <h3>R$49,99</h3><br><br>
+		<img src="jaqueta.png" width="30%"><br>
+		<h2>Jaqueta Jeans</h2>
+		<p>De:</p><h3 class="risca">R$115,90</h3><p>Para:</p> <h3>R$89,99</h3><br><br>
+	</div> 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

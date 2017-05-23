@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" type="text/css" href="estiloFaleConosco.css">
+</head>
+<body style="background-color: #F0ECEB">
+<div class="centralizar">
+    <div class="box-duvida">
+        <h3>Qual a sua <em>DÚVIDA?</em>
+        </h3>
+        <form method="post" action="./initial_page.aspx" id="form1">
+            <div class="aspNetHidden">
+                <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+                       value="LE1Y2U1R41n7a3edTK7V2cvWP/LBOXZ8ymiCF3/pKuTdlPBk3qvDYTvyqdnTY4XPHquUfu/dgQfAVNNRd+d3sW5VA3yMuo8Z1fyKbZ1Mw48=">
+            </div>
+
+            <div class="aspNetHidden">
+
+                <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9987A4D5">
+            </div>
+            <div class="busca">
+                <input type="text" onkeypress="return SubmitSearch(this, event);"
+                       placeholder="Busque por tópicos, palavras-chave ou frases">
+                <div class="button">Pesquisar</div>
+            </div>
+            <div id="result">
+
+            </div>
+        </form>
+        <br>
+        <hr>
+        <h3>
+            Sobre o que quer <em>SABER?</em>
+        </h3>
+        <div class="thumb-saber">
+            <a href="">
+                <!-- <img src="img/icon-arroba.png" class="icones-hover"> -->
+                <em>
+                    <span class="icon-arroba"></span>
+                    <img src="" alt="Loja Virtual">
+                </em>
+            </a>
+            <ul><a href="">
+            </a>
+                <li><a href=""></a><a href="" class="first">Loja Virtual</a></li>
+                <li><a href="">Trabalhe conosco</a></li>
+                <li><a href="">Nossas lojas</a></li>
+                <li><a href="#">Horário de funcionamento</a></li>
+                <li><a href="#">O que é SAC</a></li>
+                <li><a href="" target="_blank">Sax Financeira</a></li>
+            </ul>
+        </div>
+        <div class="thumb-saber">
+            <a href="">
+                <!-- <img src="img/icon-arroba.png" class="icones-hover"> -->
+                <em>
+                    <span class="icon-arroba"></span>
+                    <img src="" alt="Loja Virtual">
+                </em>
+            </a>
+            <ul><a href="">
+            </a>
+                <li><a href=""></a><a href="abas.aspx?th4" class="first">Loja Virtual</a></li>
+                <li><a href="">Trabalhe conosco</a></li>
+                <li><a href="">Nossas lojas</a></li>
+                <li><a href="#">Horário de funcionamento</a></li>
+                <li><a href="#">O que é SAC</a></li>
+                <li><a href="" target="_blank">Sax Financeira</a></li>
+            </ul>
+        </div>
+        <div class="thumb-saber">
+            <a href="">
+                <!-- <img src="img/icon-arroba.png" class="icones-hover"> -->
+                <em>
+                    <span class="icon-arroba"></span>
+                    <img src="" alt="Loja Virtual">
+                </em>
+            </a>
+            <ul><a href="">
+            </a>
+                <li><a href=""></a><a href="" class="first">Loja Virtual</a></li>
+                <li><a href="">Trabalhe conosco</a></li>
+                <li><a href="">Nossas lojas</a></li>
+                <li><a href="#">Horário de funcionamento</a></li>
+                <li><a href="#">O que é SAC</a></li>
+                <li><a href="" target="_blank">Sax Financeira</a></li>
+            </ul>
+        </div>
+        <div class="thumb-saber">
+            <a href="">
+                <!-- <img src="img/icon-arroba.png" class="icones-hover"> -->
+                <em>
+                    <span class="icon-arroba"></span>
+                    <img src="" alt="Loja Virtual">
+                </em>
+            </a>
+            <ul><a href="">
+            </a>
+                <li><a href=""></a><a href="" class="first">Loja Virtual</a></li>
+                <li><a href="">Trabalhe conosco</a></li>
+                <li><a href="">Nossas lojas</a></li>
+                <li><a href="#">Horário de funcionamento</a></li>
+                <li><a href="#">O que é SAC</a></li>
+                <li><a href="" target="_blank">Sax Financeira</a></li>
+            </ul>
+        </div>
+        <div class="nosso-sac">
+            <h4>nosso <em>SAC</em></h4>
+
+            <div class="box-email" onclick="">
+                <p>envie nos um
+                    <span>E-MAIL</span></p>
+            </div>
+
+            <div class="box-loja">
+                <em>loja <span>VIRTUAL</span></em>
+                <span>BRASIL<br>
+				    <b>(11) 4342.4548</b></span>
+            </div>
+            <div class="box-cartao">
+                <em>cartões <span>FANCY</span></em>
+                <span class="box2">
+                    CAPITAL
+                    <b>(11)6543.8900</b>
+                </span>
+            </div>
+    </div>
+</div>
+</body>
+</html>

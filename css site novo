@@ -1,0 +1,205 @@
+.centralizar {
+    height: auto;
+    display: table;
+    width: 1017px;
+    max-width: 1010px;
+    min-width: 1010px;
+    margin: 0 auto;
+    position: relative;
+}
+.box-duvida {
+    width: 915px;
+    background: #f7f9f8;
+    border: solid 1px #f1f5f6;
+    overflow: hidden;
+    margin: 0 0 5px 0;
+    padding: 50px 25px 80px;
+    font-size: 100%;
+
+}
+.box-duvida form .busca .button {
+    width: 87px;
+    height: 30px;
+    background-color: #a0a0a0;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 10px 0 0 15px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+    float: left;
+    margin: 1px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+form{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+.box-duvida hr {
+    height: 1px;
+    background: #e7e7e7;
+    margin: 70px 0 30px 0;
+    border: solid 1px #e7e7e7;
+}
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+}
+.box-duvida h3 {
+    color: #676767;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-weight: normal;
+}
+.thumb-saber {
+    width: 162px;
+    border: solid 1px #e7e7e7;
+    display: block;
+    text-align: center;
+    padding: 0px 0;
+    float: left;
+    margin: 0 60px 0 0;
+    position: relative;
+    top: 0px;
+    left: 12px;
+}
+.thumb-saber ul li .first {
+    font-size: 18px;
+    color: #676767;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 25px 0 0 0;
+    margin: 0 0 10px 0;
+    display: block;
+}
+.thumb-saber ul li a {
+    font-size: 14px;
+    color: #a0a0a0;
+    text-align: center;
+    text-decoration: none;
+    line-height: 18px;
+}
+.nosso-sac {
+    width: 910px;
+    border: solid 1px #e7e7e7;
+    clear: both;
+    float: left;
+    margin: 35px 0 0 0;
+}
+.nosso-sac h4 {
+    width: 895px;
+    display: block;
+    border-bottom: solid 1px #e7e7e7;
+    background: #f2f2f2;
+    padding: 5px 0 5px 15px;
+    font-size: 14px;
+    color: #676767;
+    margin: auto;
+}
+.nosso-sac .box-email {
+    width: 162px;
+    height: 27px;
+    float: left;
+    border-right: solid 1px #f7f9f8;
+    margin: 0 0 0 1px;
+    padding: 30px 0;
+    cursor: pointer;
+}
+.nosso-sac .box-email p {
+    width: 125px;
+    height: 28px;
+    text-align: right;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.nosso-sac .box-loja {
+    width: 255px;
+    height: 55px;
+    float: left;
+    border-left: solid 1px #e7e7e7;
+    border-right: solid 1px #f7f9f8;
+    padding: 16px 0;
+}
+.nosso-sac .box-loja em, .nosso-sac .box-cartao > em {
+    width: 100px;
+    height: 15px;
+    display: block;
+    padding: 0 0 0 20px;
+    font-size: 12px;
+    float: left;
+    margin: 0 0 0 15px;
+    font-style: normal;
+}
+.nosso-sac .box-loja > span, .nosso-sac .box-cartao > span {
+    font-weight: bold;
+    float: right;
+    display: block;
+    margin: 0 15px 0 0;
+}
+.thumb-saber ul{
+    list-style-type: none;
+}
+ul, menu, dir {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 10px;
+}
+.box-duvida form .busca input[type="text"] {
+    width: 435px;
+    height: 18px;
+    border: none;
+    padding: 12px 30px 10px;
+    font-size: 14px;
+    color: #a0a0a0;
+    border-right: solid 1px #ececec;
+    float: left;
+}
+.busca input{
+    margin-left: 18%;
+}
+.nosso-sac .box-loja > span{
+    font-weight: bold;
+    float: right;
+    display: block;
+    margin: 0 15px 0 0;
+}
+.nosso-sac .box-loja > span b{
+    display: block;
+    font-weight: normal;
+}
+.box-cartao{
+    width: 255px;
+    height: 55px;
+    float: left;
+    border-left: solid 1px #e7e7e7;
+    padding: 16px 0;
+}
+.box2{
+    font-weight: bold;
+    float: right;
+    display: block;
+    margin: 0 15px 0 0;
+}
+.box-cartao span b{
+    display: block;
+    font-weight: normal;
+}

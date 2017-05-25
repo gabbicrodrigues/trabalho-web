@@ -1,0 +1,35 @@
+var http = require("http");
+var express = require("express");
+var bodyParser = require("body-parser");
+var mongoose = require("mongoose");
+var app = express();
+
+app.set("view engine", "ejs");
+app.use(bodyParser());
+
+var estoqueSchema = new mongoose.Schema({
+    dbnomep: "String",
+    dbpreco: "number",
+    dbquantidade: "number"
+});
+var estoqueModel = mongoose.model("", estoqueSchema);
+
+app.get("/", function(req, resp){
+    resp.render("home2");
+});
+
+app.get("/Produto" function(req, resp){
+    resp.render("HTCS")
+});
+
+app.get("/Estoque" function(req, resp){
+    resp.render("estoque")
+});
+
+app.get("/FaleConosco" function(req, resp){
+    resp.render("faleconosco")
+});
+
+
+var servidor = http.createServer(app);
+servidor.listen(8080);

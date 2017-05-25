@@ -4,6 +4,9 @@ var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var app = express();
 
+app.use(express.static('web'));
+mongoose.connect("mongodb://localhost/fancy");
+
 app.set("view engine", "ejs");
 app.use(bodyParser());
 

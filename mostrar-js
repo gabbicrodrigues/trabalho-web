@@ -1,0 +1,40 @@
+var v = []
+
+function cadastroProdutos(codigo, produto, preco, qtd){
+		this.codigo = codigo;
+		this.produto = produto;
+		this.preco = preco;
+		this.qtd = qtd;
+	}
+function imprimeString(str){
+        var el = document.getElementById("mostraEstoque");
+        el.innerHTML += "<br>" + str;
+    }
+	
+	 function imprimeEstoque(){
+        var mostraEstoque = document.getElementById("mostraEstoque");
+        var str="<table border='1'><tr><td>Código</td><td>Produto</td><td>Preço</td><td>Quantidade</td></tr>";
+        for(var i=0; i< v.length ; i++){
+           str+= "<tr><td>" + v[i].codigo + "</td>" +
+                    "<td>"+ v[i].produto +"</td>" + 
+                    "<td>" + v[i].preco + "</td>" +
+                    "<td>" + v[i].qtd + "</td></tr>";
+        }
+        str += "</table>";
+        mostraEstoque.innerHTML = str;
+    }
+	function cadastra(){
+		var codigo2 = document.getElementById("codigo").value;
+		var codigo = parseInt(codigo2);
+		var produto = document.getElementById("produto").value;
+		var preco2 = document.getElementById("preco").value;
+		var preco = parseFloat(preco2);
+		var qtd2 = document.getElementById("qtd").value;
+		var qtd = parseInt(qtd2);
+
+		var estoque = new cadastroProdutos(codigo, produto, preco, qtd);
+		v.push(estoque);
+
+		imprimeEstoque();
+
+	}
